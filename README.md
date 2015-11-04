@@ -14,11 +14,11 @@ fuzzy_match is a maven projet so building and installing it is straightforward w
 The task will build a fat jar including all the dependencies of the fuzzy_match udf
 
 #### How to use fuzzy match hive udf
-1. Put the jar `fuzzy_match-1.0-SNAPSHOT.jar` in your home directory, in my case `/home/ych/fuzzy_match`
+1. Put the jar `fuzzy_text-1.0-SNAPSHOT.jar` in your home directory, in my case `/home/ych/fuzzy_match`
 2. In your hive script or shell add the following two lignes :
 
     ```
-     add jar /home/indusbdint/fuzymatch/fuzzytext-1.0-SNAPSHOT-fat.jar;
+     add jar /home/ych/fuzzy_match/fuzzytext-1.0-SNAPSHOT-fat.jar;
      CREATE TEMPORARY FUNCTION fuzzy_match as 'com.ych.fuzzytext.hive.udf.FuzzyMatch';'
     ```
     
