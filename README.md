@@ -1,4 +1,4 @@
-# fuzzymatch_hiveUDF
+# fuzzy_match hive udf function
 Hive udf utility method to do fuzzy string matching for two strings using Jaro winckler (JW), Levensteing (LV) distance or Ngram (NG).
 
 **Param 1** : First string to match.
