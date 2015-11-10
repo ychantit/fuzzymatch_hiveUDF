@@ -1,5 +1,15 @@
 # fuzzy_match hive udf function
-Hive udf utility method to do fuzzy string matching for two strings using Jaro winckler (JW), Levensteing (LV) distance or Ngram (NG).
+Hive udf utility method to do fuzzy string matching for two strings using Jaro Winckler (JW), Levensteing (LV) distance or Ngram (NG).
+
+fuzzy_match udf method is a wrapper of matching distance calculus available in lucene spell checker package :
+
+><a href="https://lucene.apache.org/core/3_5_0/api/contrib-spellchecker/org/apache/lucene/search/spell/JaroWinklerDistance.html" target="_blank">JaroWinklerDistance</a>
+
+><a href="https://lucene.apache.org/core/3_5_0/api/contrib-spellchecker/org/apache/lucene/search/spell/LevensteinDistance.html" target="_blank">LevensteinDistance</a>
+
+><a href="https://lucene.apache.org/core/3_5_0/api/contrib-spellchecker/org/apache/lucene/search/spell/NGramDistance.html" target="_blank">NGramDistance</a>
+
+### fuzzy_match hive udf method intput & output
 
 **Param 1** : First string to match.
 
@@ -13,7 +23,7 @@ Hive udf utility method to do fuzzy string matching for two strings using Jaro w
 fuzzy_match is a maven projet so building and installing it is straightforward with a `mvn clean install`
 The task will build a fat jar including all the dependencies of the fuzzy_match udf
 
-#### How to use fuzzy match hive udf
+#### How to use fuzzy_match method in hive script
 1. Put the jar `fuzzy_text-1.0-SNAPSHOT.jar` in your home directory, in my case `/home/ych/fuzzy_match`
 2. In your hive script or shell add the following two lignes :
 
