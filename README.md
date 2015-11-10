@@ -1,5 +1,5 @@
 # fuzzy_match hive udf function
-Hive udf utility method to do fuzzy string matching for two strings using Jaro Winckler (JW), Levensteing (LV) distance or Ngram (NG).
+Hive udf utility method to do fuzzy string matching for two strings using Jaro Winckler (JW), Levensteing (LV) or Ngram (NG) distance.
 
 fuzzy_match udf method is a wrapper of matching distance calculus available in lucene spell checker package :
 
