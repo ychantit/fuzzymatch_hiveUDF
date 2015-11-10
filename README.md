@@ -17,7 +17,7 @@ This projet provides an implementation example of Hive <a href="https://hive.apa
 
 **Param 2** : Second string to match with the first one.
 
-**Param 3** : Algo to use to choose from : JW, LV or NG.
+**Param 3** : Algo to be used in matching : JW, LV or NG.
 
 **Return** : Double, the distance separating the two string
 
