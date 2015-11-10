@@ -9,6 +9,8 @@ fuzzy_match udf method is a wrapper of matching distance calculus available in l
 
 ><a href="https://lucene.apache.org/core/3_5_0/api/contrib-spellchecker/org/apache/lucene/search/spell/NGramDistance.html" target="_blank">NGramDistance</a>
 
+this projet provide an implementation example of Hive <a href="https://hive.apache.org/javadocs/r1.2.1/api/org/apache/hadoop/hive/ql/udf/generic/GenericUDF.html" target="_blank">GenericUDF</a>
+
 ### fuzzy_match hive udf method intput & output
 
 **Param 1** : First string to match.
